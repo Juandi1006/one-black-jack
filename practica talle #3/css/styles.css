@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.6;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  /* Navegación */
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #a2aaad;
+  }
+  
+  /* Secciones */
+  section, article, aside {
+    padding: 20px;
+    margin: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Formularios */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  form button {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    video {
+      width: 100%;
+    }
+  }
